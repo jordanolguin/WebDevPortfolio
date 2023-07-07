@@ -1,6 +1,64 @@
 body {
-  background-color: #0f2862;
-  color: #d9d9d9;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  background-color: var(--lightest);
+  color: var(--eggshell);
+  font-family: "Rajdhani", sans-serif;
+}
+
+:root {
+  --lightest: #00b8ff;
+  --lighter: #009bd6;
+  --medium: #00719c;
+  --darker: #00415a;
+  --darkest: #001f2b;
+  --white: #ffffff;
+  --eggshell: #d9d9d9;
+}
+
+.name {
+  font-size: 150%;
+  color: var(--white);
+  text-shadow: 1px 2px 5px #0000006a;
+  padding-left: 2%;
+}
+
+#banner {
+    font-size: 160%;
+    padding-left: 2%;
+    padding-right: 27%;
+}
+
+.banner {
+  display: flex;
+  font-size: 150%;
+  background-color: var(--darkest);
+  color: var(--white);
+  text-shadow: 2px 4px 5px #0000006a;
+  margin-bottom: 2%;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #0000006a;
+}
+
+button {
+  width: 9vw;
+  margin: auto;
+  font-size: 80%;
+  color: var(--eggshell);
+  text-shadow: 1px 2px 5px #0000006a;
+  background-color: var(--darkest);
+  border: none;
+}
+
+button:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+
+button:active {
+  font-size: 70%;
+  color: #ffffffaf;
+}
+
+button:focus {
+  outline: none;
+  color: var(--white);
 }
