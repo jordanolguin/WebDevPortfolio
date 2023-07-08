@@ -133,6 +133,16 @@ button:focus {
     box-shadow: 0 5px 5px #0000006a;
 }
 
+.card-large:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px 15px var(--eggshell);
+}
+
+.card-small:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px 15px var(--eggshell);
+}
+
 .card-small {
     background-color: var(--darker);
     width: 29.5vw;
@@ -153,6 +163,12 @@ button:focus {
     align-items: flex-start;
     padding-left: 2%;
     margin-bottom: 2%;
+  }
+
+  .section-title-work {
+    color: var(--white);
+    text-shadow: 1px 2px 5px #0000006a;
+    padding-left: 2%;
   }
 
 footer {
