@@ -260,6 +260,24 @@ a {
   cursor: pointer;
 }
 
+.resume-card {
+  background-color: var(--darker);
+  background-image: url(assets/ResumeScreenshot1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 29.5vh;
+  width: 14vw;
+  margin: 0.5%;
+  border: solid 3px var(--darker);
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #0000006a;
+}
+
+.resume-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px 15px var(--eggshell);
+  }
+
 footer {
   font-size: 120%;
   text-shadow: 2px 4px 5px #0000006a;
