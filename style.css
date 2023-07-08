@@ -198,6 +198,9 @@ a {
 
 .card-small-3 {
   background-color: var(--darker);
+  background-image: url(assets/EmployeeTrackerScreenshot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 29.5vw;
   height: 19vh;
   margin: 0.5%;
