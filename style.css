@@ -100,9 +100,14 @@ button:focus {
   width: 80vw;
 }
 
+.contact-info {
+  font-size: 111%;
+  margin: 0.5%;
+}
+
 .section-left-contact {
   width: 10vw;
-  height: 24vh;
+  height: 14.75vh;
   border-right: solid 5px var(--darker);
   border-radius: 8px;
   display: flex;
@@ -112,6 +117,43 @@ button:focus {
   padding-left: 2%;
   margin-bottom: 2%;
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1% auto;
+}
+
+.card-large {
+    background-color: var(--darker);
+    width: 60vw;
+    height: 19vh;
+    margin: 0.5%;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px #0000006a;
+}
+
+.card-small {
+    background-color: var(--darker);
+    width: 29.5vw;
+    height: 19vh;
+    margin: 0.5%;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px #0000006a;
+}
+
+.section-left-work {
+    width: 10vw;
+    height: 65vh;
+    border-right: solid 5px var(--darker);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2%;
+    margin-bottom: 2%;
+  }
 
 footer {
   font-size: 120%;
