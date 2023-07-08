@@ -2,6 +2,7 @@ const workoutWizardLink = document.querySelector("#workout-wizard-link");
 const roadTripBuddyLink = document.querySelector("#road-trip-buddy-link");
 const weatherDashboardLink = document.querySelector("#weather-dashboard-link");
 const employeeTrackerLink = document.querySelector("#employee-tracker-link");
+const readmeGeneratorLink = document.querySelector("#readme-generator-link");
 
 workoutWizardLink.addEventListener("click", () => {
   window.location.href =
@@ -18,4 +19,8 @@ weatherDashboardLink.addEventListener("click", () => {
 
 employeeTrackerLink.addEventListener("click", () => {
   window.location.href = "https://github.com/jordanolguin/EmployeeTracker";
+});
+
+readmeGeneratorLink.addEventListener("click", () => {
+  window.location.href = "https://github.com/jordanolguin/REAMDMEGenerator";
 });
