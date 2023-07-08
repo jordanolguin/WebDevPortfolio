@@ -1,6 +1,6 @@
 body {
   background-color: var(--lightest);
-  color: var(--eggshell);
+  color: var(--white);
   font-family: "Rajdhani", sans-serif;
 }
 
@@ -78,11 +78,15 @@ button:focus {
   width: fit-content;
 }
 
+.about {
+    font-size: 125%;
+    width: 80vw;
+}
+
 footer {
   font-size: 120%;
   text-shadow: 2px 4px 5px #0000006a;
   background-color: var(--darkest);
-  color: var(--white);
   text-align: center;
   height: 4.5vh;
   margin-top: 2%;
