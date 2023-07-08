@@ -1,7 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--lightest);
   color: var(--white);
   font-family: "Rajdhani", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 :root {
@@ -47,9 +55,10 @@ body {
   box-shadow: 0 5px 5px #0000006a;
 }
 
-button {
+.button {
   width: 9vw;
   margin-right: auto;
+  margin-top: 3%;
   font-size: 80%;
   color: var(--eggshell);
   text-shadow: 1px 2px 5px #0000006a;
@@ -57,17 +66,17 @@ button {
   border: none;
 }
 
-button:hover {
+.button:hover {
   color: var(--white);
   cursor: pointer;
 }
 
-button:active {
+.button:active {
   font-size: 70%;
   color: #ffffffaf;
 }
 
-button:focus {
+.button:focus {
   outline: none;
   color: var(--white);
 }
@@ -236,11 +245,11 @@ button:focus {
   padding-left: 2%;
 }
 
-a {
+.socials {
   color: var(--darker);
 }
 
-a:hover {
+.socials:hover {
   color: var(--white);
   cursor: pointer;
 }
