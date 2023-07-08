@@ -77,3 +77,16 @@ button:focus {
   padding-top: 33%;
   width: fit-content;
 }
+
+footer {
+  font-size: 120%;
+  text-shadow: 2px 4px 5px #0000006a;
+  background-color: var(--darkest);
+  color: var(--white);
+  text-align: center;
+  height: 4.5vh;
+  margin-top: 2%;
+  padding-top: 1.25%;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #0000006a;
+}
