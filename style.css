@@ -15,10 +15,18 @@ body {
 }
 
 .name {
+  display: inline-flex;
+  align-items: end;
   font-size: 150%;
   color: var(--white);
   text-shadow: 1px 2px 5px #0000006a;
   padding-left: 2%;
+}
+
+#headshot {
+  height: 13vh;
+  border: solid 3px var(--darker);
+  border-radius: 50%;
 }
 
 #banner {
@@ -125,51 +133,107 @@ button:focus {
 }
 
 .card-large {
-    background-color: var(--darker);
-    width: 60vw;
-    height: 19vh;
-    margin: 0.5%;
-    border-radius: 8px;
-    box-shadow: 0 5px 5px #0000006a;
+  background-color: var(--darker);
+  background-image: url(assets/WorkoutWizardScreenshot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60.13vw;
+  height: 22vh;
+  margin: 0.5%;
+  border: solid 3px var(--darker);
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #0000006a;
 }
 
 .card-large:hover {
-    cursor: pointer;
-    box-shadow: 0 0 40px 15px var(--eggshell);
+  cursor: pointer;
+  box-shadow: 0 0 40px 15px var(--eggshell);
 }
 
-.card-small:hover {
-    cursor: pointer;
-    box-shadow: 0 0 40px 15px var(--eggshell);
+.card-small-1 {
+  background-color: var(--darker);
+  background-image: url(assets/RoadTripBuddyScreenshot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 29.5vw;
+  height: 19vh;
+  margin: 0.5%;
+  border: solid 3px var(--darker);
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #0000006a;
 }
 
-.card-small {
-    background-color: var(--darker);
-    width: 29.5vw;
-    height: 19vh;
-    margin: 0.5%;
-    border-radius: 8px;
-    box-shadow: 0 5px 5px #0000006a;
+.card-small-1:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 15px var(--eggshell);
+}
+
+.card-small-2 {
+  background-color: var(--darker);
+  background-image: url(assets/WeatherDashboardScreenshot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 29.5vw;
+  height: 19vh;
+  margin: 0.5%;
+  border: solid 3px var(--darker);
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #0000006a;
+}
+
+.card-small-2:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 15px var(--eggshell);
+}
+
+.card-small-3 {
+  background-color: var(--darker);
+  width: 29.5vw;
+  height: 19vh;
+  margin: 0.5%;
+  border: solid 3px var(--darker);
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #0000006a;
+}
+
+.card-small-3:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 15px var(--eggshell);
+}
+
+.card-small-4 {
+  background-color: var(--darker);
+  width: 29.5vw;
+  height: 19vh;
+  margin: 0.5%;
+  border: solid 3px var(--darker);
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #0000006a;
+}
+
+.card-small-4:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 15px var(--eggshell);
 }
 
 .section-left-work {
-    width: 10vw;
-    height: 65vh;
-    border-right: solid 5px var(--darker);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 2%;
-    margin-bottom: 2%;
-  }
+  width: 10vw;
+  height: 69vh;
+  border-right: solid 5px var(--darker);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2%;
+  margin-bottom: 2%;
+}
 
-  .section-title-work {
-    color: var(--white);
-    text-shadow: 1px 2px 5px #0000006a;
-    padding-left: 2%;
-  }
+.section-title-work {
+  color: var(--white);
+  text-shadow: 1px 2px 5px #0000006a;
+  padding-left: 2%;
+}
 
 footer {
   font-size: 120%;
