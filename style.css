@@ -320,3 +320,15 @@ footer {
   border-radius: 8px;
   box-shadow: 0 5px 5px #0000006a;
 }
+
+footer .english-text {
+  display: none;
+}
+
+footer:hover .hindi-text {
+  display: none;
+}
+
+footer:hover .english-text {
+  display: inline;
+}
