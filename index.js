@@ -44,14 +44,15 @@ resume.addEventListener("click", () => {
 var granimInstance = new Granim({
   element: "#canvas-basic",
   direction: "left-right",
-  isPausedWhenNotInView: true,
+  isPausedWhenNotInView: false,
   states: {
     "default-state": {
       gradients: [
-        ["#ff9966", "#ff5e62"],
-        ["#00F260", "#0575E6"],
-        ["#e1eec3", "#f05053"],
+        ["#00b8ff", "#009bd6"],
+        ["#00719c", "#00415a"],
+        ["#1E3F66", "#009bd6"],
       ],
+      transitionSpeed: 7000,
     },
   },
 });
