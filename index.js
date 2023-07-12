@@ -43,7 +43,13 @@ resume.addEventListener("click", () => {
 
 var granimInstance = new Granim({
   element: "#canvas-basic",
-  direction: "left-right",
+  direction: "custom",
+  customDirection: {
+    x0: "40%",
+    y0: "10px",
+    x1: "60%",
+    y1: "50%",
+  },
   isPausedWhenNotInView: false,
   states: {
     "default-state": {
@@ -52,7 +58,7 @@ var granimInstance = new Granim({
         ["#00719c", "#00415a"],
         ["#1E3F66", "#009bd6"],
       ],
-      transitionSpeed: 7000,
+      transitionSpeed: 4000,
     },
   },
 });
