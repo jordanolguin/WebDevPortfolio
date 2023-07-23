@@ -293,7 +293,7 @@ a {
 
 .resume-card {
   background-color: var(--darker);
-  background-image: url(assets/ResumeScreenshot1.png);
+  background-image: url(assets/ResumeScreenshot.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 29.5vh;
@@ -448,7 +448,6 @@ footer:hover .english-text {
   }
 
   .section-right {
-    margin-left: 0;
     align-items: center;
     text-align: center;
   }

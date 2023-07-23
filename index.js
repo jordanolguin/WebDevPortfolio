@@ -31,7 +31,7 @@ resume.addEventListener("click", () => {
   modalContainer.classList.add("modal-container");
 
   const modalImage = document.createElement("img");
-  modalImage.src = "assets/ResumeScreenshot1.png";
+  modalImage.src = "assets/ResumeScreenshot.png";
 
   modalContainer.appendChild(modalImage);
   document.body.appendChild(modalContainer);
